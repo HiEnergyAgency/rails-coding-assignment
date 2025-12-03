@@ -186,3 +186,25 @@ Use these scopes in both the HTML controller and the API controller.
 - The `overdue=true` filter on the API returns only overdue tasks.
 
 You don’t need 100% coverage; make sure the core logic is tested.
+
+---
+
+## Non-Functional Requirements
+
+- Use Rails 7 or 8 conventions (just state which version you target).
+- Use standard ERB templates (no need for fancy CSS, but basic readable markup is expected).
+- Keep controllers reasonably lean; push query logic into scopes.
+- Use RESTful routes. API routes should be namespaced under /api.
+
+--- 
+
+## Provide:
+
+- A link to a public Git repo.
+- Instructions in README.md:
+  - Rails version
+  - Setup steps
+  - How to run tests
+  - Example API requests (with query parameters).
+- Any notes on tradeoffs, shortcuts, or things you would improve with more time.
+
